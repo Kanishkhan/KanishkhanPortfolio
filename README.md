@@ -1,48 +1,41 @@
-# 🚀 3D Developer Portfolio
+# 🚀 Kanishkhan | 3D Developer Portfolio
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+A high-performance, immersive 3D developer portfolio designed to showcase my expertise in full-stack development, data analytics, and interactive UI/UX. Built with **React**, **Three.js**, and **Framer Motion**, this platform provides a seamless, storytelling-driven experience.
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
-
----
-
-## 📚 Table of Contents
-
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+![Portfolio Preview](https://github.com/Kanishkhan/KanishkhanPortfolio/blob/main/public/assets/projects/nrgk-shop.png?raw=true)
 
 ---
 
-## ✨ Features
+## 🌟 Key Featured Projects
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
+This portfolio highlights my most impactful work, including:
+
+- **📈 FX Decision Recommendation System:** A full-stack risk engine for Indian businesses using Python, Flask, and ML (Facebook Prophet) to quantify currency risk.
+- **🦓 LinguaAble:** An inclusive language-learning platform optimized for ADHD learners with bionic reading and real-time STT.
+- **🔐 Secure Assignment System:** A robust MERN-stack platform for educational task management.
+- **⛓️ Supply Chain Blockchain:** A decentralized traceability system built on Ethereum/Solidity.
+- **📡 Edge Data Processing:** An IoT-integrated smart parking system leveraging Java and Python.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Core Tech Stack
 
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
+| Domain | Technologies |
+| :--- | :--- |
+| **Frontend** | React.js, Vite, Tailwind CSS, Framer Motion, GSAP |
+| **3D Rendering** | Three.js, React Three Fiber, Drei |
+| **Backend** | Node.js, Express, Flask, Python |
+| **Data & ML** | Pandas, NumPy, Facebook Prophet, MongoDB |
+| **Tools** | Git, GitHub, Vercel, Netlify |
+
+---
+
+## ⚡ Performance Optimizations
+
+I prioritize speed and accessibility. This project includes several code-level optimizations:
+- **GPU Acceleration:** Using `will-change: transform` for smooth parallax transitions.
+- **3D Optimization:** Hardware-accelerated Canvas rendering with high-performance power indexing.
+- **Responsive Animations:** Optimized Framer Motion viewports for efficient scroll performance.
 
 ---
 
@@ -50,67 +43,49 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 
 ```bash
 ├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
-│   └── vite.svg
+│   ├── assets/             # Project images, textures, and documents
+│   └── models/             # 3D assets (Astronaut, Globe, etc.)
 ├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
-├── tailwind.config.js
-└── vite.config.js
+│   ├── components/         # Reusable interactive UI components
+│   ├── constants/          # Site data and project definitions
+│   ├── sections/           # High-level page sections (Hero, About, Projects)
+│   ├── App.jsx             # Main application architecture
+│   └── index.css           # Custom Tailwind theme and animations
 ```
 
 ---
 
-## 🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/kanishkhan/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
-npm install
-```
-3. Run the Development Server
-```bash
-npm run dev
-```
-The app will be available at http://localhost:5173.
+## 🚀 Local Development
+
+To run this project locally on your machine:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Kanishkhan/KanishkhanPortfolio.git
+   cd KanishkhanPortfolio
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Launch Server**
+   ```bash
+   npm run dev
+   ```
+   The site will be live at `http://localhost:5173`.
 
 ---
 
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
+## 📬 Let's Connect
 
----
+I’m always open to discussing full-stack development, data analytics, or exciting new projects.
 
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/kanishkhan/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kanishkhan/) 
+[![GitHub](https://img.shields.io/badge/GitHub-181717.svg?logo=github&logoColor=white)](https://github.com/kanishkhan)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kanishkhan1209@gmail.com)
 
 ---
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
-
-- A beautiful Landing Page
-
-- A complete E-commerce site
-
-- A fun App Clone (YouTube, Netflix, etc.)
-
-Or another interactive Portfolio
-
-Let me know!
-
----
-
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+Developed with passion by **Kanishkhan**. 
