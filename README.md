@@ -2,7 +2,7 @@
 
 A high-performance, immersive 3D developer portfolio designed to showcase my expertise in full-stack development, data analytics, and interactive UI/UX. Built with **React**, **Three.js**, and **Framer Motion**, this platform provides a seamless, storytelling-driven experience.
 
-![Portfolio Preview](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
+![Portfolio Preview](./Readme file.png)
 
 ---
 
