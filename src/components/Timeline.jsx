@@ -34,7 +34,7 @@ export const Timeline = ({ data }) => {
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
               className="sticky z-40 flex flex-col items-center self-start max-w-xs md:flex-row top-40 lg:max-w-sm md:w-full"
             >
@@ -51,7 +51,7 @@ export const Timeline = ({ data }) => {
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
               className="relative w-full pl-20 pr-4 md:pl-4"
             >

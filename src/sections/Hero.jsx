@@ -18,7 +18,11 @@ const Hero = () => {
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
       >
-        <Canvas camera={{ position: [0, 1, 3] }}>
+        <Canvas 
+          camera={{ position: [0, 1, 3] }} 
+          gl={{ powerPreference: "high-performance" }}
+          dpr={[1, 2]}
+        >
           <Suspense fallback={<Loader />}>
             <Float>
               <Astronaut

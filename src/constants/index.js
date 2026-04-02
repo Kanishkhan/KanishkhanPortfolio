@@ -5,10 +5,10 @@ export const myProjects = [
     description:
       "A comprehensive user interface design project showcasing modern design principles and responsive layouts.",
     subDescription: [
-      "Designed a visually appealing and user-friendly interface using React and Tailwind CSS.",
-      "Implemented responsive design techniques to ensure compatibility across various devices.",
-      "Focused on creating a seamless user experience with intuitive navigation and interactive elements.",
-      "Utilized modern web technologies to build a performant and scalable frontend.",
+      "🎨 Designed a visually appealing and user-friendly interface using React and Tailwind CSS.",
+      "📱 Implemented responsive design techniques to ensure compatibility across various devices.",
+      "✨ Focused on creating a seamless user experience with intuitive navigation and interactive elements.",
+      "🚀 Utilized modern web technologies to build a performant and scalable frontend.",
     ],
     href: "https://github.com/Kanishkhan/User-Interface-Design-Project",
     live: "https://nrgk-fashion.netlify.app/",
@@ -43,10 +43,10 @@ export const myProjects = [
     description:
       "A secure and efficient platform for managing assignments with role-based access control.",
     subDescription: [
-      "Built a robust backend using Node.js and Express.js for scalable API management.",
-      "Utilized MongoDB for flexible and high-performance data storage.",
-      "Implemented secure authentication and authorization mechanisms for different user roles.",
-      "Developed a dynamic React frontend to provide a seamless user interface for students and teachers.",
+      "⚙️ Built a robust backend using Node.js and Express.js for scalable API management.",
+      "📁 Utilized MongoDB for flexible and high-performance data storage.",
+      "🔐 Implemented secure authentication and authorization mechanisms for different user roles.",
+      "💻 Developed a dynamic React frontend to provide a seamless user interface for students and teachers.",
     ],
     href: "https://github.com/Kanishkhan/secure-assignment-system",
     live: "https://secure-assignment-system.vercel.app/",
@@ -81,10 +81,10 @@ export const myProjects = [
     description:
       "An innovative IoT and Edge Computing solution designed for smart parking management.",
     subDescription: [
-      "Developed an intelligent parking system using Java and Python for backend logic and data processing.",
-      "Integrated IoT sensors to monitor parking slot availability in real-time.",
-      "Implemented edge computing principles to reduce latency and improve system efficiency.",
-      "Designed a user-friendly dashboard for visualizing parking data and analytics.",
+      "🅿️ Developed an intelligent parking system using Java and Python for backend logic and data processing.",
+      "🛰️ Integrated IoT sensors to monitor parking slot availability in real-time.",
+      "⚡ Implemented edge computing principles to reduce latency and improve system efficiency.",
+      "📊 Designed a user-friendly dashboard for visualizing parking data and analytics.",
     ],
     href: "https://github.com/Kanishkhan/Edge-Data-Processing-Platform",
     live: "https://marina-drive-dashboard.netlify.app/",
@@ -119,10 +119,10 @@ export const myProjects = [
     description:
       "A decentralized supply chain management system ensuring transparency and traceability.",
     subDescription: [
-      "Built smart contracts using Solidity to automate and secure supply chain transactions.",
-      "Developed a responsive frontend with HTML and JavaScript for user interaction.",
-      "Utilized blockchain technology to provide an immutable record of product history.",
-      "Integrated MetaMask for secure user authentication and transaction signing.",
+      "📜 Built smart contracts using Solidity to automate and secure supply chain transactions.",
+      "🌐 Developed a responsive frontend with HTML and JavaScript for user interaction.",
+      "⛓️ Utilized blockchain technology to provide an immutable record of product history.",
+      "🦊 Integrated MetaMask for secure user authentication and transaction signing.",
     ],
     href: "https://github.com/Kanishkhan/Suppy_chain",
     live: "https://supply-chain-blockchain.netlify.app/",
@@ -148,18 +148,56 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "Text Intel Engine",
+    title: "Accessible Language Learning Platform",
     description:
-      "An advanced text analysis engine built in Python using algorithm-driven language modeling techniques.",
+      "An inclusive educational platform supporting learners with ADHD through distraction-free interfaces and adaptive learning paths.",
     subDescription: [
-      "Developed an intelligent text processing system utilizing Trie, Red-Black Tree, and Graph data structures.",
-      "Implemented bigram-based next-word prediction, auto-completion, frequency analysis, and word relationship mapping without external NLP libraries.",
-      "Designed a clean and responsive user interface using HTML and JavaScript and deployed the application for real-time text interaction.",
+      "🚀 Built a seamless frontend using React and Vite, implementing accessibility-first design with bionic reading and dyslexia-friendly fonts.",
+      "🛡️ Developed a robust backend with Node.js and MongoDB, featuring secure JWT authentication and role-based access control.",
+      "🤖 Integrated Google Cloud STT and an NLP engine for real-time pronunciation evaluation, alongside a GROQ AI-powered study coach.",
     ],
-    href: "https://github.com/Kanishkhan/Text-intel-engine-",
-    live: "https://text-intel-engine.netlify.app/",
+    href: "https://github.com/Kanishkhan/Accessible-Language-Learning-Platform",
+    live: "https://linguaable.vercel.app/",
     logo: "",
-    image: "/assets/projects/text-engine.png",
+    image: "/assets/projects/linguable.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 3,
+        name: "Express.js",
+        path: "/assets/logos/express.svg",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "FX Decision Recommendation System",
+    description:
+      "A Full-Stack FX Decision Support System designed for Indian businesses to quantify currency risk and optimize conversion strategies.",
+    subDescription: [
+      "📈 Developed a statistical risk engine using Python and NumPy to calculate Z-Score anomaly triggers and Value-at-Risk (VaR) percentiles.",
+      "🔮 Integrated Facebook Prophet ML models for 30-day time-series forecasting, providing business-centric predictive insights.",
+      "📊 Designed a dynamic React dashboard featuring real-time risk gauges, quadrants, and automated Black Swan alert banners.",
+      "📉 Implemented prescriptive engine logic to advise on conversion strategies (Hedge vs Spot) based on real-time market volatility.",
+    ],
+    href: "https://github.com/Kanishkhan/FX-Decision-Recommendation-System-for-Indian-Businesses",
+    live: "https://fx-decision-recommendation-system-f-silk.vercel.app/",
+    logo: "",
+    image: "/assets/projects/fx-loading.png",
     tags: [
       {
         id: 1,
@@ -168,46 +206,18 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "CPU Scheduler Simulator",
-    description:
-      "A simulation tool for analyzing various CPU scheduling algorithms.",
-    subDescription: [
-      "Implemented First-Come, First-Served (FCFS), Shortest Job First (SJF), and Round Robin algorithms.",
-      "Simulated CPU scheduling algorithms and displayed execution results with computed waiting times in a structured results table.",
-      "Calculated and displayed average waiting time and turnaround time.",
-      "Developed a user-friendly interface for inputting process data.",
-    ],
-    href: "https://github.com/Kanishkhan/CPU-Scheduler-Simulator",
-    live: "https://cpu-optimizer.netlify.app/",
-    logo: "",
-    image: "/assets/projects/cpu.png",
-    tags: [
-      {
-        id: 1,
-        name: "Java",
-        path: "/assets/logos/java.svg",
+        name: "Pandas",
+        path: "/assets/logos/pandas.svg",
       },
       {
-        id: 2,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
+        id: 4,
+        name: "Vite",
+        path: "/assets/logos/vitejs.svg",
       },
     ],
   },

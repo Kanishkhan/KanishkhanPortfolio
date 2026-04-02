@@ -68,7 +68,7 @@ const HeroText = () => {
               transition={{ delay: 2.4 }}
             >
               <a
-                href="/assets/KANISHKHANRESUME.pdf"
+                href="/assets/Kanish_Khan_Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="px-8 py-3 text-lg font-semibold text-black transition-all bg-white rounded-full hover:scale-105"
@@ -188,7 +188,7 @@ const HeroText = () => {
               transition={{ delay: 2.4 }}
             >
               <a
-                href="/assets/KANISHKHANRESUME.pdf"
+                href="/assets/Kanish_Khan_Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full px-6 py-3 text-lg font-semibold text-center text-black bg-white rounded-full"
